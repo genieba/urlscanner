@@ -1,0 +1,29 @@
+{
+    "name": "qianxun/urlscanner",
+    "description": "Scan Urls From A Csv File And Report Inaccessile Urls",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "requrie-dev":{
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhen",
+            "email": "891079046@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "suggest":{
+            "league/csv":"~6.0"
+    },
+    "autoload":{
+            "psr-4":{
+                    "QianXun\\UrlScanner\\":"src/"
+            }
+    }
+
+
+}
